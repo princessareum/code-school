@@ -1,0 +1,475 @@
+/***** header ******/
+
+.home-page-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.menu {
+    margin-right: 20px;
+}
+
+.top {
+    display: none;
+}
+
+.home-page-intro-box {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background: linear-gradient(to bottom, #21abc7, #616db3);
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.intro-header-text {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.intro-text {
+    width: 80%;
+    line-height: 1.5;
+    margin: 0 auto 15px;
+}
+
+.intro-button {
+    background: #ffae1c;
+    border: 1px solid #ffae1c;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+/***** introducing why code school works ******/
+
+.why-codeschool {
+    width: 100%;
+    padding: 60px 10px;
+    color: gray;
+    padding: 10px;
+}
+
+.why-header-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.why-text {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.why-video {
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 10px;s
+}
+
+/***** middle section before list of classes ******/
+
+.middle {
+    width: 100%;
+    padding: 60px 10px;
+    background: #f7f7f7;
+    color: gray;
+    text-align: center; 
+}
+
+.middle-header-text {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+.middle-text {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+
+
+/***** list of classes ******/
+
+.middle-class {
+    background: #f7f7f7;
+    padding: 0 20px 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.class-name {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #EFECEC;
+    border-radius: 7px;   
+    text-align: center;
+    margin-bottom: 70px;
+ }
+ 
+ .class-name img {
+     position: relative;
+     top: -50px;
+ }
+ 
+ .class-name h2 {
+     font-size: 20px;
+     color: #00A4C4;
+     line-height: 2px;
+     padding-bottom: 10px;
+     margin-top: -40px;
+     margin-bottom: 10px;
+ }
+ 
+ .class-name p {
+     color: gray;
+     font-size: 14px;
+     line-height: 1.5;
+     margin: 0 20px 20px 20px;
+ }
+ 
+ .view-path {
+    background: #00A4C4;
+    border: 1px solid #00A4C4;
+    border-radius: 50px;
+    padding: 7px 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;   
+    margin-bottom: 20px; 
+ }
+ 
+ .view-path:hover {
+     cursor: pointer;
+     background: #1C91A8;
+ }
+ 
+ .class-button {
+     width: 100%;
+     border-bottom-left-radius: 7px;
+     border-bottom-right-radius: 7px;
+     border: 1px solid #fff;
+     border-top: 1px solid lightgray;
+     background: #fff;
+     padding: 10px 20px;
+  }
+ 
+ .class-button:hover {
+     cursor: pointer;
+     background: #EFECEC;
+ }
+ 
+ .class-button h5 {
+     font-size: 12px;
+     color: #BFBEBE;
+     margin-bottom: 5px;
+}
+
+.class-button h3 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #00A4C4;
+}
+
+/***** how code school works *****/
+.code-school {
+    width: 100%;
+    padding: 60px 10px;
+    color: gray;
+    padding: 20px; 
+}
+
+.how-it-works h2 {
+    font-size: 20px;
+    margin-top: 40px; 
+    text-align: center;  
+}
+
+.code-school img {
+    width: 80%;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.code-school h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.code-school p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+/***** join the crowd *****/
+.join-the-crowd {
+    background: #f7f7f7;
+    color: gray;
+    padding: 20px;
+}
+
+.join-the-crowd h2 {
+    font-size: 20px;
+    padding-top: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.join-the-crowd p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.testimony p{
+    font-size: 13px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.testimony img {
+    border: 5px solid white;
+    border-radius: 100%;
+    width: 25%;
+}
+
+.testimony h3 {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.share-your-story {
+    margin-top: 70px; 
+    text-align: center;
+}
+
+.share-your-story button {
+    background: #f7f7f7;
+    border: 1px solid #00A4C4;
+    border-radius: 50px;
+    padding: 10px 50px;
+    color: #00A4C4;
+    font-weight: 600;
+    font-size: 12px;
+}
+.share-your-story button:hover {
+    cursor: pointer;
+    background: #00A4C4;
+    color: #fff;
+    
+}
+
+/***** price *****/
+.price-page {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.price1 {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to bottom, #F6892E, #F25851);
+    color: #fff;
+    text-align: center;
+}
+
+
+.price-page h2 {
+    font-size: 18px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;  
+    margin-top: 50px;  
+}
+
+.price-page h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.checks li.tick:before {
+  content: "\2713";
+  color: #FFAE1C;
+  
+
+}
+
+.tick {
+      margin: 20px 40px;
+      /*line-height: 1.5;*/
+      font-size: 15px;
+      text-align: left;
+      margin-bottom: 30px;
+}
+
+.price1 button {
+    background: #ffae1c;
+    border: 1px solid #ffae1c;
+    border-radius: 50px;
+    padding: 10px 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.price1 button:hover {
+     cursor: pointer;
+     background: #dd8d02;
+}
+
+.price2 {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to bottom, #21AAC6, #606DB3);
+    color: #fff;
+    text-align: center;   
+}
+
+/*.checks li.tick:before {
+  content: "\2713";
+  color: #FFAE1C;*/
+  
+
+}
+
+.price2 li {
+      margin: 20px 40px;
+      /*line-height: 1.5;*/
+      font-size: 15px;
+      text-align: left;
+      margin-bottom: 30px;
+}
+
+
+
+.price2 button {
+    background: transparent;
+    border: 1px solid #3AA0CA;
+    border-radius: 50px;
+    padding: 10px 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.price2 button:hover {
+     cursor: pointer;
+     background: #3AA0CA;
+}
+
+/***** media query ******/
+
+@media(min-width: 700px) {
+    .menu {
+        display: none;
+        
+    }
+    .home-page-intro-box {
+        background-image: url("../img/computer.jpg");
+        opacity: 0.5;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 650px;
+    }
+    .intro-header-text {
+        font-size: 40px;
+        font-weight: 600;
+        text-shadow: 2px 2px 2px #000;
+    }
+    .intro-text {
+        font-size: 20px;
+        text-shadow: 2px 2px 2px #000;
+    }
+    
+    .top {
+        display: inline-block;
+    }
+    
+    .nav1 {
+        display: inline-block;
+    }
+    
+    .nav2 {
+        display: inline-block;
+    }
+      
+   .search-box {
+       height: 50px;
+       width: 200px;
+       
+   }   
+   .search-box img {
+       width: 100%;
+   }  
+   
+    
+    .new-account {
+        border: 1px solid green;
+        background: #fff;
+        border-radius: 50px;
+        padding: 5px 20px;
+        color: green;
+        font-weight: 600;
+        font-size: 10px; 
+    }
+    
+    .why {
+        display: inline-block;
+        margin: 0 50px;
+    }
+
+    .why-header-text {
+        font-size: 30px;
+        margin-left: 100px; 
+    }
+    
+    .why-text {
+        margin-left: 100px;
+    }
+    
+    .why-video {
+        width: 25%;
+        display: inline-block;
+        margin-left: 70px;
+        margin-bottom: 30px;
+    }
+    
+    .middle-class {
+        padding: 70px;    
+    }
+    
+    .class-name {
+        display: inline-block;
+        width: 25%;
+        margin-right: 60px;
+        margin-bottom: 100px;
+        margin-left: 25px;
+    } 
+            
+    .middle-class {
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-around;
+        
+    }
+}

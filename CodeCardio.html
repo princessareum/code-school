@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CodeCardio</title>
+  <meta name="title" content="CodeCardio | Learn javascript with our code challenges.">
+  <meta name="description" content="Learn to code and with interactive code challenges and interview questions. Level up your javascript skills and assess your abilities.">
+  
+  <link href='//fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type='text/css' href='/components/bootstrap/dist/css/bootstrap.css'>
+  <link rel="stylesheet" type='text/css' href='/components/font-awesome/css/font-awesome.min.css'>
+  <link rel="stylesheet" type="text/css" href='/components/codemirror/lib/codemirror.css'>
+  <link rel="stylesheet" type="text/css" href="/components/angular-ui-select/dist/select.min.css">
+  <link rel="stylesheet" type="text/css" href="/components/sweetalert/dist/sweetalert.css">
+  <link rel="stylesheet" type="text/css" href="/components/angular-ui-grid/ui-grid.min.css">
+  <link rel="stylesheet" type="text/css" href="/components/angular-chart.js/dist/angular-chart.css">
+
+	<!-- inject:css -->
+  <link rel="stylesheet" href="/css/compiled-css/add-roles.css">
+  <link rel="stylesheet" href="/css/compiled-css/cardio-preview.css">
+  <link rel="stylesheet" href="/css/compiled-css/cardioReview.css">
+  <link rel="stylesheet" href="/css/compiled-css/categories.css">
+  <link rel="stylesheet" href="/css/compiled-css/challenge-container.css">
+  <link rel="stylesheet" href="/css/compiled-css/challenge-modal.css">
+  <link rel="stylesheet" href="/css/compiled-css/challenge.css">
+  <link rel="stylesheet" href="/css/compiled-css/challenges.css">
+  <link rel="stylesheet" href="/css/compiled-css/codeMirror.css">
+  <link rel="stylesheet" href="/css/compiled-css/col-sidebar.css">
+  <link rel="stylesheet" href="/css/compiled-css/dashboard.css">
+  <link rel="stylesheet" href="/css/compiled-css/edit-challenge.css">
+  <link rel="stylesheet" href="/css/compiled-css/edit-html-challenge.css">
+  <link rel="stylesheet" href="/css/compiled-css/edit-sequence.css">
+  <link rel="stylesheet" href="/css/compiled-css/inline-challenge.css">
+  <link rel="stylesheet" href="/css/compiled-css/landing.css">
+  <link rel="stylesheet" href="/css/compiled-css/line-hint.css">
+  <link rel="stylesheet" href="/css/compiled-css/login.css">
+  <link rel="stylesheet" href="/css/compiled-css/main.css">
+  <link rel="stylesheet" href="/css/compiled-css/modal-html-submit.css">
+  <link rel="stylesheet" href="/css/compiled-css/navbar.css">
+  <link rel="stylesheet" href="/css/compiled-css/search.css">
+  <link rel="stylesheet" href="/css/compiled-css/sequence.css">
+  <link rel="stylesheet" href="/css/compiled-css/sequences.css">
+  <link rel="stylesheet" href="/css/compiled-css/student-review.css">
+  <link rel="stylesheet" href="/css/compiled-css/student-validations.css">
+  <link rel="stylesheet" href="/css/compiled-css/user-profile.css">
+  <!-- endinject -->
+  <!-- build:css -->
+  <!-- endbuild -->
+  <!-- bower:css -->
+  <!-- endinject -->
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-41999703-3', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
+</head>
+
+
+  
+    <div ng-app="CodeCardio" class="ng-app">
+        <base href="/a/">
+        <div class="content-area" ui-view></div>
+
+        <!-- build:bowerToCDN -->
+        <script src="/components/jquery/dist/jquery.min.js"></script>
+        <script src="//cdn.jsdelivr.net/g/jquery.ui@1.10%28jquery.ui.core.min.js+jquery.ui.widget.min.js+jquery.ui.mouse.min.js+jquery.ui.sortable.min.js"></script>
+        <script src="/components/sass.js/dist/sass.js"></script>
+        <script src="/components/moment/moment.js"></script>
+        <script src="/components/q/q.js"></script>
+        <script src="/components/angular/angular.js"></script>
+        <script src="/components/underscore/underscore-min.js"></script>
+        <script src="/components/ui-router/release/angular-ui-router.js"></script>
+        <script src="/components/angular-underscore/angular-underscore.min.js"></script>
+        <script src="/components/angular-moment/angular-moment.js"></script>
+        <script src="/components/a0-angular-storage/dist/angular-storage.js"></script>
+        <script src="/components/codemirror/lib/codemirror.js"></script>
+        <script src="/components/codemirror/mode/javascript/javascript.js"></script>
+        <script src="/components/codemirror/mode/xml/xml.js"></script>
+        <script src="/components/codemirror/mode/css/css.js"></script>
+        <script src="/components/angular-ui-codemirror/ui-codemirror.js"></script>
+        <script src="/components/angular-ui-grid/ui-grid.js"></script>
+        <script src="/components/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="/components/angular-timer/dist/angular-timer.js"></script>
+        <script src="/components/angular-ui-sortable/sortable.js"></script>
+        <script src="/components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+        <script src="/components/angular-ui-select/dist/select.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/immutable/3.7.4/immutable.min.js"></script>
+        <script src="/components/angular-update-meta/dist/update-meta.js"></script>
+        <script src="/components/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="/components/angular-hotkeys/build/hotkeys.js"></script>
+        <script src="/components/Chart.js/Chart.min.js"></script>
+        <script src="/components/angular-chart.js/dist/angular-chart.min.js"></script>
+		<!-- endbuild -->
+        <!-- bower:js -->
+        <!-- endinject -->
+
+        <!-- build:js -->
+        <!-- inject:js -->
+        <script src="/js/controllers/filters/codecardio-filters.js"></script>
+        <script src="/js/app.js"></script>
+        <script src="/js/services/validationState.js"></script>
+        <script src="/js/services/userService.js"></script>
+        <script src="/js/services/testingState.js"></script>
+        <script src="/js/services/mcTesting.js"></script>
+        <script src="/js/services/jsTesting.js"></script>
+        <script src="/js/services/inlineTesting.js"></script>
+        <script src="/js/services/htmlTesting.js"></script>
+        <script src="/js/services/groupService.js"></script>
+        <script src="/js/services/feedbackService.js"></script>
+        <script src="/js/services/challengeState.js"></script>
+        <script src="/js/services/challengeService.js"></script>
+        <script src="/js/services/categoryService.js"></script>
+        <script src="/js/services/authService.js"></script>
+        <script src="/js/directives/userMenuDirective.js"></script>
+        <script src="/js/directives/newMcChallenge.js"></script>
+        <script src="/js/directives/newJSChallenge.js"></script>
+        <script src="/js/directives/newInlineChallenge.js"></script>
+        <script src="/js/directives/newHTMLChallenge.js"></script>
+        <script src="/js/directives/mcChallenge.js"></script>
+        <script src="/js/directives/jsChallenge.js"></script>
+        <script src="/js/directives/inlineChallenge.js"></script>
+        <script src="/js/directives/headerDirective.js"></script>
+        <script src="/js/directives/getHelp.js"></script>
+        <script src="/js/directives/dirHtmlCss.js"></script>
+        <script src="/js/directives/dirCodeMirror.js"></script>
+        <script src="/js/directives/contactDirective.js"></script>
+        <script src="/js/directives/collapsible.js"></script>
+        <script src="/js/directives/challengeStats.js"></script>
+        <script src="/js/directives/addRoles.js"></script>
+        <script src="/js/controllers/validationsController.js"></script>
+        <script src="/js/controllers/studentValidationsController.js"></script>
+        <script src="/js/controllers/studentReviewController.js"></script>
+        <script src="/js/controllers/sequencesController.js"></script>
+        <script src="/js/controllers/sequenceController.js"></script>
+        <script src="/js/controllers/secureController.js"></script>
+        <script src="/js/controllers/searchController.js"></script>
+        <script src="/js/controllers/profileController.js"></script>
+        <script src="/js/controllers/newSequenceController.js"></script>
+        <script src="/js/controllers/newQuestionController.js"></script>
+        <script src="/js/controllers/modalHtmlSubmitController.js"></script>
+        <script src="/js/controllers/groupsController.js"></script>
+        <script src="/js/controllers/groupValidationsController.js"></script>
+        <script src="/js/controllers/groupUsersController.js"></script>
+        <script src="/js/controllers/groupSequenceModalController.js"></script>
+        <script src="/js/controllers/groupController.js"></script>
+        <script src="/js/controllers/gridCellModalController.js"></script>
+        <script src="/js/controllers/fixValidationsCtrl.js"></script>
+        <script src="/js/controllers/feedbackController.js"></script>
+        <script src="/js/controllers/editSequenceController.js"></script>
+        <script src="/js/controllers/editQuestionController.js"></script>
+        <script src="/js/controllers/editChallengeController.js"></script>
+        <script src="/js/controllers/dashboardController.js"></script>
+        <script src="/js/controllers/contactModalController.js"></script>
+        <script src="/js/controllers/challengesController.js"></script>
+        <script src="/js/controllers/challengeModalController.js"></script>
+        <script src="/js/controllers/challengeController.js"></script>
+        <script src="/js/controllers/categoryController.js"></script>
+        <script src="/js/controllers/cardioReviewController.js"></script>
+        <script src="/js/controllers/cardioPreviewController.js"></script>
+        <script src="/js/controllers/authController.js"></script>
+        <!-- endinject -->
+        <!-- endbuild -->
+        <script type="text/javascript">
+            //b/c facebook is annoying ...
+            if (window.location.hash && window.location.hash == '#_=_') {
+                window.location.hash = '';
+            }
+        </script>
+    </div>
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WTBG8S"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WTBG8S');</script>
+    <!-- End Google Tag Manager -->
+  
